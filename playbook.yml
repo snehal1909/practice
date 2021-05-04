@@ -1,0 +1,7 @@
+--- 
+- name: Simpleplaybook  
+  hosts: web
+  tasks:
+    - copy: 
+        src: /opt/index.html
+        dest: /var/www/html
